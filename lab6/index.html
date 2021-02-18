@@ -3,20 +3,48 @@
 <div class="content">
 	<head>
 		<title>Lab 6: More Complicated HTML/Topic</title>
-		<h1>LAB 6: Complicated HTML</h1>
-	<head><link rel="stylesheet" type="text/css" href="../css/site.css">
-	</head>
-	</head>
+		<style>
+		body {
+		    font-family: Helvetica, Verdana, Arial, "san serif";
+		    background-color: darkgray;
+		    padding: 25px;
+		    font-size: 120%;
+		}
+		div#content {
+		    padding: 50px;
+		    background-color: transparent;
+		    border: solid 1px #333333;
+		    height: 80vh;
+		}
+		h1, h2, h3 {
+		    font-family: "Times New Roman", monospace;
+		}
+		img {
+		    float: right;
+		    width: 400px;
+		    height: auto;
+		}
+
+		a {
+		    text-decoration: none;
+		    color: black;
+		}
+		a:hover {
+		    text-decoration: underline;
+		    text-decoration-style: wavy;
+		}
+</style>
+
 <body>
-<div id="content">
-	<img src="..img/kitty.jpeg" alt="Kitty image to soothe eyes">
-	</style>
+<div id="image">
+	<img src="lab6\img\kitty.jpeg" alt="Kitty image to soothe eyes">
 </div>
-<div id="content">
+<div class="content">
 	<h2>Challenges</h2>
-	<p>	The challenges I faced were the broken image, adding the css files and aligning the forms</p>
+	<p>	Most of this assignment was a challenge to me,espically the broken image, adding the css files and aligning the forms.
+	There was also the fact that my html structure was odd looking, and it made it was complicated to read.</p>
 </div>
-<div id="content">
+<div class="content">
 	<h2>Problems</h2>
 	<p>
 			The problems I had during this lab were that my images always poped up as a broken image
@@ -24,38 +52,30 @@
 			it kept showing all of the html structure onto the textbox,which I found out was the fact that I didn't close alligator.</p>
 </div>
 </body>
-<div class="major-section">
-
 	 <h2>Survey</h2>
  		<form action="https://google.com/search"
  		method="post">
-
- 	<label>Name: <input name="q" type="text">
- 			<input type="submit" value="GET EM"
-
+	<label>Name: <input name="q" type="text"><br/>
+ 			<input type="submit" value="GET EM" target="_new"
  	 <label>Gender:<input name="gender"
  					type="radio" value="Female">Female<label>
- 					<label><input name="gender" type="radio" value="Male">Male<label>
-
-
- 		<label> Biography: <textarea name="essay"> </textarea
+ 					<label><input name="gender" type="radio" value="Male">Male</label><br/>
+		<label> Biography: <textarea name="essay"> </textarea>
  		</label>
-
     <label>Food Prefrences:
  		<select name="food">
  			<option value="Spicy">Spicy</option>
  			<option value="Sweet">Sweet</option>
- 			<option value="Salty">Salty</option>
+ 			<option value="Salty">Salty</option><br/>
  		<label>
 <div class="content">
 	<label for="password">Password</label>
 	<input name="password" type="password"
+	</form>
 </div>
-
 		<h2>Results</h2>
-
 		<p>HERE WE GO,incoming screenshots.......
 		</p>
-		<a href=".../lab1/index.html">Take me home</a>
+		<a href=".../lab2/index.html">Take me home</a>
 </div>
 	</html>
