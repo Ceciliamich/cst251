@@ -1,10 +1,13 @@
 </html>
+<div class="content">
+
   <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
     <title>Lab 7:CSS</title>
         <link rel="stylesheet"  type="" href="/css/master.css">
         <link rel="stylesheet" type "css/lab.css" href="/css/master.css">
+</div>
 </head>
 <style media="screen">
 body {
