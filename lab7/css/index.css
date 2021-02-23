@@ -1,0 +1,23 @@
+body {
+    background-color: #9AE6C8;
+    padding: 25px;
+    border-radius:5px;
+    border: solid: 2px
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+    opacity: 60%
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}

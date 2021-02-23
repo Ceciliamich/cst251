@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Lab 7:CSS</title>
+        <link rel="stylesheet"  type="" href="/css/master.css">
+        <link rel="stylesheet" type "css/lab.css" href="/css/master.css">
+</head>
+
+<body>
+    <h1>Lab7:CSS</h1><br/>
+<div id="Challenges">
+      <h1>Challenges</h1><br/>
+        <p></p>
+</div>
+
+<div id="Problems">
+      <h2>Problems</h2><br/>
+        <p></p>
+</div>
+
+<div id="Results">
+      <h2>Results</h2><br/>
+        <p></p>
+</div>
+</body>
+</html>
