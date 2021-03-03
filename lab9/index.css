@@ -1,87 +1,82 @@
-
 <style media="screen">
 
 body {
-
-    background-image: linear-gradient(127deg,#6bf1bb,#163049);
+    background: linear-gradient(#e66465, #9198e5);
     padding: 13px;
+    margin:10px;
+    border:12px
 }
-
-img{
-  size:50px;
-  border:12px;
-  width:250px;
-  height:350px;
+.challenges{
+  border-top:10px;
+  border-bottom:10px;
+  margin:10px;
+  padding:12px;
+  font-size:15px
 }
 
 article.challenges p{
   padding:8px;
-  color:#163049;
-  margin:8px;
-  font-size: 18px;
+  padding-top:2px;
+  color:black;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 15px;
   font-family: Garamond;serif;
-  text-transform: none;
-}
-div.challenges img{
-size:600px;
-width:700px;
-height:550px;
-padding:12px
-}
-
-div#problems p{
-
-font-family: 'DotGothic16', sans-serif;
-font-size: 15px;
-color:#163049;
-text-transform: none;
-
+  text-transform: none
+  border:dotted 4px black;
+  border-bottom:dotted 3px black;
 }
 
 div#results{
-font-family: 'DotGothic16', sans-serif;
-font-size: 11px
+font-family: Garamond;serif;
+font-size: 15px;
+margin:10px;
+padding:8px;
 }
 
 div#results p{
-color:#F5840A;
-font-size: 15px;
-font-family: font-family:Garamond;serif
-text-transform: none;
+color:black;
+font-size: 14px;
+font-family: font-family:Garamond;serif;
+text-transform:none;
+padding:12px;
+margin:10px;
 }
-div#results img{
-size:600px;
-width:700px;
-height:550px;
-padding:12px
+div#problems p{
+  border-bottom:dotted 3px black;
+  padding:12px
+  margin:10px
+}
+div#problems img{
+  size:500px;
+  width:400px;
+  height:380px;
+  border:solid 8px black;
+  padding:12px;
+  margin:10px
 }
 
-h1,h2,h3{
+h2{
   font-family:Garamond;serif
-  font-size: 40px;
-
-}
-
-label{
-  font-size: 18px;
-  font-family: 'DotGothic16', sans-serif;
-  color:#C8ACE6;
-  float:center;
-
-}
-a{
   font-size: 12px;
-  font-family:Garamond;serif
-  color:black
+  border:double 8px;
+  padding:12px;
+  margin:10px;
+  background-color:#E69159
+}
+div.homepage{
+  size:12px;
+  margin:10px;
+  padding:13px;
+  border-top:dotted 3px black
 }
 nav{
   color:black;
-  text-transform:uppercase;
-  font-size:22px;
+  text-transform:none;
+  font-size:15px;
   margin:10px;
   padding:12px;
-  border:solid 8px #9FCBF5;
-  background-color:#6AB8FC;
-  opacity:98%
+  border-style:doubled 3px black;
+
 }
 </style>
