@@ -79,4 +79,8 @@ nav{
   border-style:double 3px black;
 
 }
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
 </style>
