@@ -1,12 +1,18 @@
-<style media="screen">
-
+style
 body {
     background: linear-gradient(#e66465, #9198e5);
-    padding: 13px;
+    padding:13px;
     margin:10px;
     border:12px
 }
+img {
+    float: center;
+    width: 300px;
+    height: auto;
+}
+
 .challenges{
+font-family: 'Fascinate', cursive;
   border-top:10px;
   border-bottom:10px;
   margin:10px;
@@ -21,70 +27,52 @@ article.challenges p{
   margin-top:10px;
   margin-bottom:10px;
   font-size: 15px;
-  font-family: Garamond;serif;
   text-transform: none
-  border:dotted 4px black;
-  border-bottom:dotted 3px black;
+  border:dotted 4px white;
+  border-bottom:dotted 3px white;
 }
 
 div#results{
-font-family: Garamond;serif;
+font-family: 'Fascinate', cursive;
 font-size: 15px;
 margin:10px;
 padding:8px;
 }
 
 div#results p{
-color:black;
-font-size: 14px;
-font-family: font-family:Garamond;serif;
+color:white;
+font-family: 'Kavivanar', cursive;
+font-size: 15px;
 text-transform:none;
 padding:12px;
 margin:10px;
 }
 div#problems p{
-  border-bottom:dotted 3px black;
-  padding:12px
-  margin:10px
-}
-div#problems img{
-  size:500px;
-  width:400px;
-  height:380px;
-  border:solid 8px black;
+  font-family: 'Kavivanar', cursive;
+  font-size: 15px;
   padding:12px;
   margin:10px
-}
-h1{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 12px;
-  border:double 8px;
-  padding:12px;
-  margin:10px;
-  background-color:#E69159
 }
 
-h2{
-font-family: 'Kavivanar', cursive;
-font-size: 12px;
-border:double 8px;
-padding:12px;
-margin:10px;
-background-color:#E69159
-}
 div.homepage{
   size:12px;
   margin:10px;
   padding:13px;
-  border-top:dotted 3px black
+  border-top:dotted 3px white
 }
 nav{
-  color:black;
+  color:white;
+  font-family: 'Fascinate', cursive;
   text-transform:none;
   font-size:15px;
   margin:10px;
-  padding:12px;
-  border-style:double 3px black;
+  padding:25px;
+  width: auto;
+  height: auto;
+  border:solid 4px white;
+  border-top:dotted 4px white;
+  border-bottom:dotted 4px white;
+
 
 }
 a:hover {
@@ -92,4 +80,3 @@ a:hover {
     text-decoration-style: wavy;
 }
 </style>
-font-family: 'Poiret One', cursive;
