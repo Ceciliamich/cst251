@@ -1,4 +1,5 @@
-style
+<style media="screen">
+
 body {
     background: linear-gradient(#e66465, #9198e5);
     padding:13px;
@@ -9,6 +10,7 @@ img {
     float: center;
     width: 300px;
     height: auto;
+    border:solid 8px white;
 }
 
 .challenges{
@@ -21,6 +23,7 @@ font-family: 'Fascinate', cursive;
 }
 
 article.challenges p{
+  font-family: 'Kavivanar', cursive;
   padding:8px;
   padding-top:2px;
   color:black;
@@ -40,7 +43,7 @@ padding:8px;
 }
 
 div#results p{
-color:white;
+color:black;
 font-family: 'Kavivanar', cursive;
 font-size: 15px;
 text-transform:none;
@@ -76,6 +79,7 @@ nav{
 
 }
 a:hover {
+    font-family:'Permanent Marker', cursive;
     text-decoration: underline;
     text-decoration-style: wavy;
 }
