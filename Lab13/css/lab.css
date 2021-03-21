@@ -6,18 +6,15 @@
   z-index:-100;
 }
 #text{
-  font-family: 'Oxygen', sans-serif;
-  font-size: 120px;
-  z-index: 10;
-}
-#titlebox{
-  position:absolute;
+  position: absolute;
   top:0;
   left:0;
   width:100%;
   z-index:10;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 120px;  
 }
-#text-paragraph{
+#paragraph{
   position: absolute;
   left:0;
   bottom:0;
