@@ -8,6 +8,7 @@
 #text{
   font-family: 'Oxygen', sans-serif;
   font-size: 120px;
+  z-index: 10;
 }
 #titlebox{
   position:absolute;
