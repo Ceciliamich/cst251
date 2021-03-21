@@ -25,6 +25,9 @@
   left:0;
   bottom:0;
   z-index: auto;
+  margin:0;
+  padding:0;
+  color:white;
 
 }
 iframe#fake {
