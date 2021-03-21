@@ -5,8 +5,8 @@
   position: relative;
   z-index:-100;
 }
-#container-text{
-  font-family: 'Comfortaa', cursive;
+#text{
+  font-family: 'Oxygen', sans-serif;
   font-size: 120px;
 }
 #titlebox{
@@ -16,12 +16,12 @@
   width:100%;
   z-index:10;
 }
-#text-paragrpah{
+#text-paragraph{
   position: absolute;
   left:0;
   bottom:0;
   z-index: auto;
-  
+
 }
 iframe#fake {
     width: 800px;
