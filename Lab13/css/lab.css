@@ -4,7 +4,7 @@
   width: 100vw;
   height:100vw;
   position: relative;
-  z-index: 10;
+  z-index:-100;
 }
 #titlebox{
   font-family: 'Comfortaa', cursive;
@@ -13,12 +13,13 @@
   top:0;
   left:0;
   width:100%;
-  z-index: auto;
+  z-index:10;
 
-#caption-box{
+#caption-box {
   position: absolute;
   left:0;
   bottom:0;
+  z-index:10;
 }
 
 iframe#fake {
