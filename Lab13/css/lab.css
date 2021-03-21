@@ -1,0 +1,31 @@
+<style media="screen">
+
+#container {
+  width: 100vw;
+  height:100vw;
+  position: relative;
+  z-index: -100
+}
+#titlebox{
+  position: absolute;
+  top:0;
+  left:10;
+  width:100%;
+  z-index: auto;
+}
+#caption-box{
+  position: absolute;
+  left:0;
+  bottom:0;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+
+</style>
+
+
+/* Los Angeles Background: https://www.britannica.com/place/Los-Angeles-California  */
