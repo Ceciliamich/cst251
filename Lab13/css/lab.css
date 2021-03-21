@@ -1,14 +1,16 @@
 <style media="screen">
-
 #container {
   width: 100vw;
   height:100vw;
   position: relative;
   z-index:-100;
 }
-#titlebox{
+#container-text{
   font-family: 'Comfortaa', cursive;
   font-size: 60%
+}
+#titlebox{
+
   position: absolute;
   top:0;
   left:0;
@@ -27,8 +29,13 @@ iframe#fake {
     height: 500px;
     resize: both;
     overflow: hidden;
+  }
 
 </style>
+
+
+
+
 
 
 /* Los Angeles Background: https://www.britannica.com/place/Los-Angeles-California  */
