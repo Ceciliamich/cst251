@@ -4,15 +4,16 @@
   width: 100vw;
   height:100vw;
   position: relative;
-  z-index:10;
+  z-index: 10;
 }
 #titlebox{
+  font-family: 'Comfortaa', cursive;
   position: absolute;
   top:0;
   left:10;
   width:100%;
   z-index: auto;
-}
+
 #caption-box{
   position: absolute;
   left:0;
