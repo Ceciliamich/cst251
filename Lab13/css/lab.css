@@ -8,9 +8,10 @@
 }
 #titlebox{
   font-family: 'Comfortaa', cursive;
+  font-size: 60%
   position: absolute;
   top:0;
-  left:10;
+  left:0;
   width:100%;
   z-index: auto;
 
