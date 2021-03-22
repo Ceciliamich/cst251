@@ -1,5 +1,5 @@
 <style media="screen">
-#container {
+#container{
   width: 100vw;
   height:100vw;
   position: relative;
@@ -30,7 +30,7 @@
   color:white;
 
 }
-iframe#fake {
+iframe#fake{
     width: 800px;
     height: 500px;
     resize: both;
