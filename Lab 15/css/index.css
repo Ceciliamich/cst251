@@ -1,25 +1,49 @@
 <style media="screen">
+body{
+    background-image: linear-gradient(#8A0257, #920024);
+    padding: 10px;
+    margin:10px;
+    margin-left: 5px;
+    background-blend-mode: lighten;
+}
 #content{
-  font-size: 30px;
+  font-size: 20px;
   font-family: Verdana,sans-serif;
-  text-transform:uppercase;
+  text-transform:none;
   padding:5px;
   margin-bottom:3px;
-  box-shadow: 3px 3px 5px cyan;
+  border-radius: 0 25px;
+  border: 5px solid cyan;
 }
 
 h1{
-text-shadow: 0 -1px 3px black, 1px 0 3px black, 0 1 px 3px black, -1 0 3px black;
-font-size: 80px
-font-family: cursive;
-padding: 12px;
+text-shadow: 0 -1px 3px black;
+text-transform: uppercase;
+font-size:30px
+padding: 5px;
 margin:5px;
+box-shadow: 3px 3px 5px cyan;
+filter: blur(2px);
 }
 .para{
-  font-size: 45px;
-  font-family: cursive;
-  padding: 45px;
-  margin: 8px;
+
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
   text-shadow: 3px pink;
+}
+a{
+  font-size: 15px;
+  box-shadow: 6px 2px 3px #C2FF0A;
+  text-transform: uppercase;
+}
+img{
+  width:25%;
+  height:35%
+  border: 8px solid black;
+  border-radius: 0 8px 15px;
+  object-fit: scale-down;
+  transform: rotate(8deg);
+  filter:saturate(30%);
 }
 </style>
