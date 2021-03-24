@@ -16,6 +16,8 @@
 		}
 		h1, h2, h3 {
 		    font-family: "Times New Roman", monospace;
+				filter: blur(2px);
+				text-shadow:3px 0 0 red, -3px 0 0 cyan;
 		}
 		img {
 		    float: center;
