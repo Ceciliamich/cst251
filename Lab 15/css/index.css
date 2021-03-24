@@ -1,4 +1,5 @@
 <style media="screen">
+
 body{
     background-image: linear-gradient(#8A0257, #920024);
     padding: 10px;
@@ -7,43 +8,50 @@ body{
     background-blend-mode: lighten;
 }
 #content{
-  font-size: 20px;
+  font-size: 16px;
   font-family: Verdana,sans-serif;
   text-transform:none;
   padding:5px;
   margin-bottom:3px;
   border-radius: 0 25px;
   border: 5px solid cyan;
+  box-shadow: 8px 5px 8px black;
 }
 
 h1{
 text-shadow: 0 -1px 3px black;
 text-transform: uppercase;
-font-size:30px
-padding: 5px;
+font-size:30px;
+padding:5px;
 margin:5px;
 box-shadow: 3px 3px 5px cyan;
 filter: blur(2px);
+text-shadow:3px 0 0 red, -3px 0 0 cyan;
 }
 .para{
-
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px;
   margin: 5px;
   text-shadow: 3px pink;
 }
 a{
+  margin:5px;
+  padding:8px;
   font-size: 15px;
   box-shadow: 6px 2px 3px #C2FF0A;
   text-transform: uppercase;
+
 }
 img{
-  width:25%;
-  height:35%
+  padding:15px;
+  margin:8px;
+  width:20%;
+  height:28%
   border: 8px solid black;
   border-radius: 0 8px 15px;
   object-fit: scale-down;
-  transform: rotate(8deg);
+  transform:rotate(9deg);
   filter:saturate(30%);
 }
+
 </style>
