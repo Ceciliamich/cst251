@@ -28,47 +28,49 @@
   </section>
   </main>
 </body>
-html{
-  background-color:Coral;
-}
-.flex {
-  display:"flex";
-  flex-wrap: wrap;
-}
-.minor-section{
-  padding-right: 20px;
-  min-width: 400px;
-  max-width: 25%;
-  align-items: stretch;
-}
-#content{
-  display:inline-block;
-  width:90%;
-  margin:10px;
-  padding:11px;
-  border: solid 15px black;
-  background-color: yellow;
-
-}
-#challenges{
-  font-family: 'Fascinate', cursive;
-    border-top:10px;
-    border-bottom:10px;
+<style media="screen">
+  html{
+    background-color:Coral;
+  }
+  .flex {
+    display:"flex";
+    flex-wrap: wrap;
+  }
+  .minor-section{
+    padding-right: 20px;
+    min-width: 400px;
+    max-width: 25%;
+    align-items: stretch;
+  }
+  #content{
+    display:inline-block;
+    width:90%;
     margin:10px;
+    padding:11px;
+    border: solid 15px black;
+    background-color: yellow;
+
+  }
+  #challenges{
+    font-family: 'Fascinate', cursive;
+      border-top:10px;
+      border-bottom:10px;
+      margin:10px;
+      padding:12px;
+      font-size:15px
+  }
+  #problems{
+    font-family: 'Kavivanar', cursive;
+    font-size: 15px;
     padding:12px;
-    font-size:15px
-}
-#problems{
-  font-family: 'Kavivanar', cursive;
-  font-size: 15px;
-  padding:12px;
-  margin:10px
-}
-#results{
-  color:black;
-  font-family: 'Kavivanar', cursive;
-  font-size: 15px;
-  text-transform:none;
-  padding:12px;
-  margin:10px;
-}
+    margin:10px
+  }
+  #results{
+    color:black;
+    font-family: 'Kavivanar', cursive;
+    font-size: 15px;
+    text-transform:none;
+    padding:12px;
+    margin:10px;
+  }
+  </style>
