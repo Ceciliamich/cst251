@@ -3,6 +3,22 @@ html{
 }
 .flex {
   display:"flex";
+  flex-wrap: wrap;
+}
+.minor-section{
+  padding-right: 20px;
+  min-width: 400px;
+  max-width: 25%;
+  align-items: stretch;
+}
+#content{
+  display:inline-block;
+  width:90%;
+  margin:10px;
+  padding:11px;
+  border: solid 15px black;
+  background-color: yellow;
+
 }
 #challenges{
   font-family: 'Fascinate', cursive;
