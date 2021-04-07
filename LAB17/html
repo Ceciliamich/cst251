@@ -13,7 +13,7 @@
     </ul>
   </nav>
   <main id="content">
-    <section class="flex">
+    <section class="boxy">
         <h1>Lab 17: CSS</h1>
         <div id="challenges" class="minor-section">
           <h2>Challenge</h2>
