@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Lab 17:CSS layout</title>
-  </head>
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/mysite.css">
+ </head>
 <body>
   <nav>
     <ul>
