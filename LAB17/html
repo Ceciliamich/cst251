@@ -2,9 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Lab 17:CSS layout</title>
     <link rel="stylesheet" href="/css/master.css">
-    <link rel="stylesheet" href="/css/mysite.css">
+    <link rel="stylesheet" type="text/css" href="css/mysitecss"
+    <title>Lab 17:CSS Layout</title>
  </head>
 <body>
   <nav>
