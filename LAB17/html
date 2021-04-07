@@ -8,9 +8,7 @@
  </head>
 <body>
   <nav>
-    <ul>
       <li><a href="C:\Users\miche\OneDrive\Documents\GitHub\cst251\lab1\index.html">Homepage></a></li>
-    </ul>
   </nav>
   <main id="content">
     <section class="boxy">
