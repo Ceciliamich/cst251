@@ -1,4 +1,6 @@
-<style media="screen">
+html{
+  background-color:Coral;
+}
 .flex {
   display:"flex";
 }
@@ -24,4 +26,3 @@
   padding:12px;
   margin:10px;
 }
-</style>
