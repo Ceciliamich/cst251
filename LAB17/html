@@ -30,4 +30,22 @@
   </section>
   </main>
 </body>
+<style media="screen">
+.flex {
+  display:"flex";
+}
+#challenges{
+  font-family: 'Fascinate', cursive;
+    border-top:10px;
+    border-bottom:10px;
+    margin:10px;
+    padding:12px;
+    font-size:15px
+}
+#problems{
+  font-family: 'Kavivanar', cursive;
+  font-size: 15px;
+  padding:12px;
+  margin:10px
+}
 </html>
