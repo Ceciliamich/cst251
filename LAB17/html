@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 17:CSS Selection</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="../css/site.css">
+  </head>
+<body>
+  <main id="content">
+    <h1>Lab 17: CSS</h1>
+      <div id="Challenges"="minor-section">
+        <h2>Challenge</h2>
+        <p>Challenge</p>
+      </div>
+
+</body>
+
+
+</html>
