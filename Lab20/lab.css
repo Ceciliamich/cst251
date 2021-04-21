@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    padding:13px;
+    margin:10px;
+    border:12px
+}
+img{
+  width: 60%;
+  height: 40%;
+}
